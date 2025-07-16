@@ -1,9 +1,9 @@
 {
-  "name": "react-native-aps",
+  "name": "react-native-working-aps",
   "version": "2.0.1",
   "author": "AdversportTeam <rm@adversport.com> (https://github.com/AdversportTeam)",
   "contributors": [
-    "Jay Kim <me@wjay.kim> (https://github.com/wjaykim)"
+    "Luca"
   ],
   "description": "Amazon Publisher Services SDK for React Native",
   "license": "LGPL-3.0",
