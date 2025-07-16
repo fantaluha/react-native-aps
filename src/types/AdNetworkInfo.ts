@@ -25,7 +25,7 @@ export interface AdNetworkInfo {
   /**
    * The name of the primary ad server or mediator
    */
-  adNetwork: AdNetwork;
+  adNetwork: string;
   adNetworkProperties?: { [key: string]: string };
 }
 

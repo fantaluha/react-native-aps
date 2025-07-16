@@ -26,11 +26,14 @@ import type { AdNetworkInfo, MRAIDPolicy } from '../types';
 export interface Spec extends TurboModule {
   initialize: (appKey: string) => Promise<void>;
 
-  setAdNetworkInfo: (adNetworkInfo: AdNetworkInfo) => void;
+  setAdNetworkInfo: (adNetworkInfo: {
+    adNetwork: string;
+    adNetworkProperties?: { [key: string]: string };
+  }) => void;
 
   setMRAIDSupportedVersions: (supportedVersions: string[]) => void;
 
-  setMRAIDPolicy: (policy: MRAIDPolicy) => void;
+  setMRAIDPolicy: (policy: string) => void;
 
   setTestMode: (enabled: boolean) => void;
 
